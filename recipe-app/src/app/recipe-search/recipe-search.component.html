@@ -1,0 +1,12 @@
+<div class="container mt-4">
+    <h2 class="mb-4">Recipe Search</h2>
+    <div class="input-group mb-3">
+        <!-- Dropdown list of recipes -->
+        <select class="form-control" [(ngModel)]="selectedRecipe" (change)="redirectToRecipe()">
+            <option *ngFor="let recipe of recipes" [value]="recipe.id">{{ recipe.title }}</option>
+        </select>
+        <div class="input-group-append">
+            <button class="btn btn-primary" (click)="searchRecipes()">Search</button>
+        </div>
+    </div>
+</div>

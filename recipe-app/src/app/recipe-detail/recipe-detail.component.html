@@ -1,0 +1,8 @@
+<!-- recipe-detail.component.html -->
+
+<div class="container mt-4" *ngIf="recipe">
+  <h2 class="mb-4">{{ recipe.title }}</h2>
+  <img [src]="recipe.image" class="img-fluid mb-4" alt="Recipe Image">
+  <p>{{ recipe.summary }}</p>
+  <!-- Display other recipe details as needed -->
+</div>

@@ -1,0 +1,48 @@
+/* app.component.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #330808;
+  color: #522323;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: #0f97f8;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Main styles */
+main {
+  padding: 30px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #8ef674;
+  color: #d69a9a;
+  padding: 10px 20px;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+/* recipe-list.component.css */
+
+/* Container styles */
+.container {
+  margin: 20px;
+}
+
+/* Recipe list styles */
+.recipe-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Recipe item styles */
+.recipe-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden; /* Ensure that the container properly contains the image and details */
+}
+
+/* Recipe image styles */
+.recipe-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Recipe details styles */
+.recipe-details {
+  padding: 10px;
+}
+
+/* Hover effect for recipe items */
+.recipe-item:hover {
+  background-color: #995252;
+  cursor: pointer;
+}
+
+/* Recipe card styles */
+.recipe-card {
+  transition: transform 0.3s;
+}
+
+/* Hover effect for recipe cards */
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

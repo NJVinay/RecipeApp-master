@@ -1,0 +1,15 @@
+<div class="container mt-4">
+  <h2 class="mb-4">Recipes</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let recipe of recipes">
+      <div class="card recipe-card" [routerLink]="['/recipes', recipe.id]">
+        <img [src]="recipe.image" class="card-img-top" alt="Recipe Image">
+        <div class="card-body">
+          <h5 class="card-title">{{ recipe.title }}</h5>
+          <p class="card-text">{{ recipe.summary }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
